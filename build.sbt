@@ -26,3 +26,5 @@ scalaSource in Test    := baseDirectory.value / "test"
 resourceDirectory in Compile := baseDirectory.value / "resources"
 resourceDirectory in Test    := baseDirectory.value / "resources"
 
+// Plugins
+enablePlugins(SbtIdeaPlugin)
